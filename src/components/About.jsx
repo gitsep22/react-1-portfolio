@@ -10,7 +10,7 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
 
             </div>
-            <p className='text-xl  mt-20'>
+            <p className='text-xl  mt-10'>
                 I'm a passionate and dedicated full-stack developer. As a fresh graduate,
                  I am excited to embark on this journey and contribute my skills to 
                  the world of web development.My toolbox includes HTML, CSS, and JavaScript for
@@ -24,8 +24,7 @@ const About = () => {
                 My experience doesn't stop there. I'm well-versed in harnessing the power of React, 
                 a dynamic library that allows me to create seamless and responsive front-end experiences. 
                 These projects have not only sharpened my coding abilities but have also instilled in me the
-                 importance of user-centric design.As a fresh graduate, I'm committed to delivering innovative solutions 
-                 and embracing challenges head-on. Collaboration and continuous learning fuel my ambition.
+                 importance of user-centric design. Collaboration and continuous learning fuel my ambition.
                  Feel free to explore my portfolio to witness the culmination of my efforts.
             </p>
         </div>
