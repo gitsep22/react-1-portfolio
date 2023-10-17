@@ -1,31 +1,32 @@
 import React from 'react';
+import shoe from  '..//assets/portfolio/shoe.jpg';
+import  calculator from  '..//assets/portfolio/calculator.jpg';
+import todo from  '..//assets/portfolio/todo.jpg';
 
-
-import navbar from  '..//assets/portfolio/navbar.jpg';
-import reactParallax from  '..//assets/portfolio/reactParallax.jpg';
-import reactSmooth from  '..//assets/portfolio/reactSmooth.jpg';
-import reactWeather from  '..//assets/portfolio/reactWeather.jpg';
-
-const Portfolio = () => {
+const Portfolios = () => {
     const portfolio =[
      
         {
             id:1,
-            src: reactParallax
+            src: calculator,
+            demo:'https://idyllic-daifuku-c550cd.netlify.app/',
+            code:'https://github.com/gitsep22/calculator#calculator-using-html-css-js'
+
         },
         {
             id:2,
-            src: navbar
+            src: todo,
+            demo:'https://elegant-scone-ce727d.netlify.app/',
+            code:'https://github.com/gitsep22/To-do-list',
         },
         {
             id:3,
-            src: reactSmooth
+            src: shoe,
+            demo:'https://deft-donut-61ccad.netlify.app/',
+            code:'https://github.com/safak/youtube/tree/html-css-js-ecommerce'
         },
       
-        {
-            id:4,
-            src: reactWeather
-        },
+       
     ]
   return (
     <div name="portfolio"
@@ -38,13 +39,13 @@ const Portfolio = () => {
             </div >
             <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-10 sm:px-0">
             {
-                portfolio.map(({id,src})=>(
+                portfolio.map(({id,src,code,demo})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                     <img  src ={src} alt=""
                     className='rounded-md duration-200 hover:scale-105' />
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <a href={demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                        <a  href={code}className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
                 </div>
 
@@ -61,5 +62,96 @@ const Portfolio = () => {
     
   )
 }
+export default Portfolios;
 
-export default Portfolio;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+        
+    

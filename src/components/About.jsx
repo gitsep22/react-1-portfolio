@@ -11,7 +11,7 @@ const About = () => {
 
             </div>
             <p className=' mt-8'>
-                I'm a passionate and dedicated full-stack developer. As a fresh graduate,
+                I'm a passionate and dedicated Front-end developer. As a fresh graduate,
                  I am excited to embark on this journey and contribute my skills to 
                  the world of web development.My toolbox includes HTML, CSS, and JavaScript for
                   crafting elegant and responsive user interfaces. I'm skilled in leveraging modern 
